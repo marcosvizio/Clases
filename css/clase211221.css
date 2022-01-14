@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0cm;
+}
+.gradient{
+    background-image: linear-gradient(to left, red, transparent, blue);
+    border: 2px solid black;
+    padding: 50px 50px;
+}
+.gradient-radial{
+    background-image: radial-gradient(blueviolet 25%, yellow 50%, green 100%);
+    border: 2px solid black;
+    padding: 50px 50px;
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+}
+/* body{
+    background-image: linear-gradient(black,tomato);
+    height: 100vh;
+} */
+
+/* transform */
+
+.translate{
+    width: 300px;
+    height: 300px;
+    background: magenta;
+    transform: translate(50px, 50px); /* primer valor EJE X segundo valor EJE Y */
+    margin: 0 auto;
+}
+.rotate{
+    width: 300px;
+    height: 300px;
+    font-size: 36px;
+    background: cyan;
+    transform: rotateZ(45deg); /* rotateX o rotateY o rotateZ */
+    margin: 0 auto;
+}
+.scale{
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    transform: scale(1);
+    margin: 0 auto;
+}
+.skew{
+    width: 200px;
+    height: 200px;
+    background: black;
+    margin: 0 auto 500px;
+    color: white;
+}
+.skew:hover{
+    transform: skew(9deg,136deg);
+}
+.transition{
+    background: tomato;
+    width: 300px;
+    height: 150px;
+    transition: all 500ms;
+}
+.transition:hover{
+    width: 600px;
+    height: 300px;
+    color: black;
+    font-size: 30px;
+    background: linear-gradient(tomato,yellow);
+}
+input{
+    width: 300px;
+    height: 50px;
+    transition: all 1s;
+}
+input:focus{
+    background: chartreuse;
+    width: 100%;
+    height: 100px;
+}
+input::placeholder{
+    color: crimson;
+}
+
+/* animation */
+
+@keyframes mi-efecto {
+    0%{
+        width: 100px;
+        background: crimson;
+    }
+    100%{
+        width: 200px;
+        background-color: cyan;
+    }
+}
+
+.mi-animacion{
+    height: 100px;
+    /* animation-name: mi-efecto;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    animation-duration: 2s;
+    animation-timing-function: linear; */
+    animation: mi-efecto 2s ease-in-out 1s infinite;
+    padding: 0 auto;
+}
+
+/* usar para animaciones pag: animate.style */

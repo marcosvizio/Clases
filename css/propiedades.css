@@ -1,0 +1,49 @@
+.box-color {
+    background-color: #aaa84e;
+    color: blue;
+    border-width: 5px;
+    border-style: dashed;
+    background-image: url(../img/edificio-uno.jpg);
+    background-position: top left;
+    background-repeat: repeat;
+    background-size: auto;
+    height: 400px;
+    width: 400px;
+}
+
+.lista ul {
+list-style: none;
+}
+
+.texto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 5px;
+    line-height: 2;
+    text-decoration: underline; /* none para links por defecto */
+    text-align: center;
+}
+.unidades h1 {
+    /* font-size: 3rem; */
+    font-size: 36px;
+    background-color: coral;
+    width: 50%;
+    /* height: 100vh; */ /* view height */
+    /* @font-face {
+        font-family: "Mystery Quest";
+        src: url(); *//* Anticuado */
+
+}
+
+.gfont {
+    font-family: 'Permanent Marker', cursive; /* google font */
+    background-color: greenyellow;
+}
+.gfont span.destacado{
+    background-color: blue;
+}
+body {
+    margin-bottom: 500px;
+}

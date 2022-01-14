@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#container{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 50px auto 50px;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+#header{
+    display: flex;
+    justify-content: end;
+}
+#header nav ul a{
+    color: black;
+}
+#main picture{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#main div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px ;
+}

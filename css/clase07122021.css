@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    height: 100vh;
+    background-color: orange;
+    padding: 10px;
+    display: flex;
+    /* flex-direction: row; */ /* column o reverse */
+    /* flex-wrap: wrap; */ /* wrap o nowrap o wrap-reverse */
+    flex-flow: row wrap;
+    /* justify-content: flex-start; */ /* valor por defecto */
+    /* justify-content: flex-end; */ /* valor derecha */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    justify-content:flex-start; /* EJE X */
+    /* align-items: stretch; */
+    align-content: space-around; /* EJE Y */
+}
+
+.flex-item {
+    width: 200px;
+    height: 100px;
+    background-color: blueviolet;
+    border: 1px solid white;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+
+/* Justify-Content */
+

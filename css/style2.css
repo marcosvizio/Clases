@@ -1,0 +1,67 @@
+/* selector {
+    propiedad: valor;
+    otra-propiedad: otro-valor;
+} */
+
+*{ /* reset */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    background-color: aquamarine;
+}
+div h1 {
+     color: red;
+}
+div p {
+    color: green;
+}
+/* class */
+.container {
+    background-color: greenyellow;
+    border: 2px solid #333;
+}
+div.redondeados {
+    border-radius: 20px;
+    width: 300px;
+}
+.container .tituloColor{
+    color: blueviolet;
+    background-color: orange;
+}
+#productos{
+    background-color: orchid;
+    padding: 20px;
+    margin-top: 20px;
+}
+#productos.destacados{
+    border: 2px solid black;
+}
+#productos .titulo{
+    color: white;
+}
+#productos .texto{
+    color: turquoise;
+}
+#noticias {
+    color: tomato;
+}
+#noticias h3 { 
+    color: blue;
+}
+/* precedencia */
+#noticias p{
+    background-color: black;
+    color: white;
+}
+.noti p{
+    color: tomato;
+    font-family: sans-serif;
+}
+p {
+    color: greenyellow !important; /* no usar mas de 5 !important si lo haces algo estas haciendo mal */
+}
+/* Colores en HTML Color picker */
+

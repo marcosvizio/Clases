@@ -1,0 +1,127 @@
+/* BEM */
+
+.header {
+    background-color: aqua;
+}
+
+.header__logo {
+    width: 100px;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.header__search{
+    width: 200px;
+}
+
+.header__logo--white {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
+
+.noticia__texto {
+    background-color: blue;
+}
+
+.noticia__texto--destacada{
+    background-color:  red;
+}
+
+.noticia__texto--noimportante {
+    background-color: greenyellow;
+    color: hotpink;
+}
+/* BOXMODELING */
+
+.color {
+    color: tomato;
+}
+
+body {
+    background-color: yellowgreen;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: orange;
+    max-width: 1200px;
+    height: 100px;
+    margin: auto;
+    position: sticky;
+    top: 20px;
+    text-align: end;
+    z-index: 999;
+}
+
+header ul li{
+    display: inline;
+}
+
+.boxmodel {
+    height: 250px;
+    width: 400px;
+    background-color: aqua;
+    /* border */
+    border: 10px dashed black;
+    border-width: 5px;
+    border-color: black;
+    border-style: dashed;
+    border-top: 5px solid orange;
+    border-right: 7px solid red;
+    border-bottom: 4px double blue;
+    border-left: 9px dashed greenyellow;
+    /* margin */
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin: 25px auto; /* auto busca el medio en cualquier pantalla */
+    /* padding */
+    padding: 20px 40px;
+    overflow: auto;
+    display: none; /* se borra toda la estructura */
+    visibility: hidden; /* está pero no se ve */
+    position: absolute;
+    top: 0;
+    right: 0;
+    position: relative;
+    top: -50px;
+    right: 0;
+}
+
+.boxmodel p {
+    font-size: 36px;
+}
+
+h1 {
+    background-color: salmon;
+    display: inline;
+}
+
+span.display {
+    background-color: seagreen;
+    display: block;
+    color: white;
+    font-size: 24px;
+}
+
+a.btn {
+    background-color: greenyellow;
+    border: 5px solid black;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 30px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+footer {
+    margin-bottom: 500px;
+}

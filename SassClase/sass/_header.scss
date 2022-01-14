@@ -1,0 +1,25 @@
+.header{
+    background-color: $colorPrincipal;
+    & &__logo{
+        width: 100px;
+        p{
+            color: $colorTexto;
+        }
+    }
+    & &__menu{
+        display: inline;
+        ul{
+            li{
+                a{
+                    color: $colorPrincipal;
+                    &:hover{
+                        color: blue;
+                    }
+                }
+            }
+        }
+    }
+    & &__search{
+        max-width: 200px;
+    }
+}

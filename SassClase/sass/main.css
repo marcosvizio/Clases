@@ -1,0 +1,40 @@
+/* Variables */
+.header {
+  background-color: aquamarine;
+}
+
+.header .header__logo {
+  width: 100px;
+}
+
+.header .header__logo p {
+  color: black;
+}
+
+.header .header__menu {
+  display: inline;
+}
+
+.header .header__menu ul li a {
+  color: aquamarine;
+}
+
+.header .header__menu ul li a:hover {
+  color: blue;
+}
+
+.header .header__search {
+  max-width: 200px;
+}
+
+section.noticias {
+  background-color: aquamarine;
+}
+
+section.noticias h1 font {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-variant: normal;
+  font-style: normal;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,41 @@
+#grid-container{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 50px 30px auto auto 50px;
+    grid-template-areas: 
+    "header"
+    "menu"
+    "section"
+    "banner"
+    "footer";
+}
+header{
+    background-color: chocolate;
+    grid-area: header;
+}
+nav{
+    background-color: red;
+    grid-area: menu;
+}
+section{
+    background-color: blueviolet;
+    grid-area: section;
+}
+aside{
+    background-color: greenyellow;
+    grid-area: banner;
+}
+footer{
+    background-color: salmon;
+    grid-area: footer;
+}
+@media screen and (min-width:768px) {
+    #grid-container{
+        grid-template-areas: 
+        "header header header"
+        "menu menu menu"
+        "section section banner"
+        "section section banner"
+        "footer footer footer";
+    }
+}

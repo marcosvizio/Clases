@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+<head>
+
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Clase_1</title>
+    <!-- CSS interno x etiqueta -->
+    <style>
+        section {
+            background-color: aquamarine;
+        }
+        section article {
+            border: 2px solid #000000;
+        }
+    </style>
+    <!-- CSS externo por etiqueta link -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div>
+    <a href="#productos">Ir a productos</a>
+    </div>
+
+    <section> <!-- etiqueta padre -->
+        <article> <!-- etiqueta hijo -->
+
+            <h2 style="color:rgb(0, 0, 255);">Clase CSS</h2> <!-- CSS inline x atrib. -->
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, ipsum ducimus. Alias fugit ex ad non? Vero ab.</p>
+
+        </article>
+    </section>
+
+    <div class="redondeados">
+        <h1>Titulo para CSS</h1>
+        <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, officia?</P>
+    </div>
+
+    <!-- class -->
+    <div class="container redondeados">
+        <h2 class="tituloColor">Titular para atributo Class</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, dolor distinctio? Aliquam adipisci reprehenderit hic!</p>
+    </div>
+
+    <!-- ID -->
+    <section id="productos" class="destacados">
+        <h3 class="titulo">Titular para ID</h3>
+        <p class="texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo reprehenderit iste ipsum officia voluptatem pariatur necessitatibus libero nihil blanditiis inventore.</p>
+    </section>
+
+    <!-- herencia -->
+    <section id="noticias" class="noti">
+        <h3>Otro Titulo</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, magnam.</p>
+    </section>
+
+    <div style="margin-bottom: auto;"></div>
+
+    <!-- ENTENDER BIEN ETIQUETAS PADRES Y ETIQUETAS HIJOS -->
+    
+</body>
